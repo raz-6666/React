@@ -1,0 +1,47 @@
+.container{
+  max-width: 800px;
+  margin: 10px auto;
+}
+.heading{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 1em;
+}
+.hotelCards{
+  width: 100%;
+  margin: 0 auto 20px;
+
+}
+.hotelCards img{
+  width: 100%;
+  object-fit: contain;
+}
+.title{
+  margin: 3em 0;
+  font-size: 28px;
+  text-align: center;
+  color:  rgb(134,6,49);
+  text-decoration: underline;
+}
+.hotelCards p{
+  font-size: 15px;
+  font-weight: 300;
+  padding: 10px;
+}
+.btn{
+  margin-bottom: 5px;
+  padding: 20px;
+}
+button{
+  padding: 5px 40px;
+  border: 1px solid palevioletred;
+  font-size: 18px;
+  border: none;
+  background-color: black;
+  color: white;
+  transition: 0.4s all ease;
+  margin-bottom: 5px;
+}
+button:hover{
+  background-color: brown;
+}
